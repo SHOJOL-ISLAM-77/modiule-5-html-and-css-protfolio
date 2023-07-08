@@ -77,3 +77,33 @@ nav li a{
     border: 3px solid #fD6E0A;
     color: #fd6e0a;
 }
+
+/* main style start here */
+
+/* about me section start here  */
+.about-me{
+    margin: 200px 300px;
+    background-color: #fff8f3;
+    text-align: center;
+}
+.about-me section{
+    margin: 150px;
+    padding: 100px 0;
+}
+.about-me h1{
+    font-size: 45px;
+}
+.about-me_description{
+    color: #474747;
+}
+.about-me_bottom-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-gray{
+    color: #474747;
+}
+.font-w-bold{
+    font-weight: bold;
+}
