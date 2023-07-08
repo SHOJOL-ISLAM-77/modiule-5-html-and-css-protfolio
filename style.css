@@ -15,6 +15,12 @@ body{
     font-weight: 700;
     padding: 18px 35px;
 }
+.text-gray{
+    color: #474747;
+}
+.font-w-bold{
+    font-weight: bold;
+}
 /* nav style */
 header{
     background-color:#fff8f3 ;
@@ -101,9 +107,34 @@ nav li a{
     justify-content: space-between;
     align-items: center;
 }
-.text-gray{
-    color: #474747;
+
+/* what i do section start here  */
+.what-i-do{
+    margin: 200px 300px;
 }
-.font-w-bold{
-    font-weight: bold;
+.what-i-do_first-section{
+    text-align: center;
+    padding: 50px 200px;
+}
+.what-i-do_first-section h1{
+    font-size: 45px;
+}
+.what-i-do_secound-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.what-i-do_secound-section div{
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgb(182, 181, 181) ,-5px -5px 15px rgb(182, 181, 181);
+    box-sizing: border-box;
+    padding: 30px;
+}
+.what-i-do_secound-section div:hover{
+    box-shadow: 5px 5px 15px rgb(170, 161, 161) ,-5px -5px 15px rgb(146, 135, 135);
+    transform:;
+    transform: scale(1.1)  rotate(20deg);
+    transition: 0.5s;
+    border-radius: 40px;
 }
