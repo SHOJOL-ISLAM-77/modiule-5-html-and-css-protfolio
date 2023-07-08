@@ -21,6 +21,19 @@ body{
 .font-w-bold{
     font-weight: bold;
 }
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 35px;
+    padding: 20px;
+}
+h3{
+    font-size: 25px;
+}
+h4{
+    font-size: 20px;
+}
 /* nav style */
 header{
     background-color:#fff8f3 ;
@@ -133,8 +146,31 @@ nav li a{
 }
 .what-i-do_secound-section div:hover{
     box-shadow: 5px 5px 15px rgb(170, 161, 161) ,-5px -5px 15px rgb(146, 135, 135);
-    transform:;
     transform: scale(1.1)  rotate(20deg);
     transition: 0.5s;
     border-radius: 40px;
+}
+/* a-summary-of-my section start here */
+.a-sumary-of-my{
+    margin: 200px 300px;
+}
+.a-sumary-of-my_container{
+    display: flex;
+    justify-content: space-between;
+}
+.a-sumary-of-my_first-section{
+    width: 550px;
+}
+.a-sumary-of-my_secound-section{
+    width: 550px;
+}
+.a-sumary-of-my h1{
+    text-align: center;
+    padding: 50px;
+}
+.btn-div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 50px;
 }
