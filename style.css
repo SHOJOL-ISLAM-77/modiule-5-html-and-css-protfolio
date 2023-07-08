@@ -16,6 +16,12 @@ body{
     padding: 18px 35px;
 }
 /* nav style */
+header{
+    background-color:#fff8f3 ;
+    background-image: url('./img/header_bg.png') , url('./img/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right , top left;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -39,4 +45,35 @@ nav li a{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+}
+/* bnnar section style */
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.bannar_text{
+    max-width: 500px;
+    margin-left: 200px;
+}
+.bannar_text h3{
+    font-size: 45px;
+}
+.bannar_text h1{
+    font-size: 70px;
+    font-weight: 800;
+}
+.bannar_img{
+    width: 550px;
+    height: 650px;
+    padding:0 50px 25px 0 ;
+}
+.bannar_text button{
+    margin: 50px 30px 0 0;
+}
+.contact_btn{
+    background-color: #fff8f3;
+    border: 3px solid #fD6E0A;
+    color: #fd6e0a;
 }
