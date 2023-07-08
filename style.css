@@ -174,3 +174,39 @@ nav li a{
    align-items: center;
    margin: 50px;
 }
+
+/* footer section :start here  */
+footer{
+    background-color: #fff8f3;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 300px 0 300px;
+    padding: 200px 0;
+}
+.footer_section-one{
+    width: 400px;
+}
+.footer_section-one span{
+    margin: 10px 20px 0 0;
+}
+.footer_section-two input,textarea {
+    display: block;
+    border: none;
+    margin: 30px 0;
+    font-size: 20px;
+    height: 45px;
+    width: 600px;
+}
+.footer_section-two textarea{
+    height: 150px;
+    font-size: 25px;
+}
+.footer_section-two .submit{
+    height: 40px;
+    font-size: 20px;
+    width: 200px;
+    border: #474747;
+    padding: 10px;
+}
